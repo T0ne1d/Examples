@@ -8,5 +8,5 @@ tiles:
 
 script-providers:
   IPCheck:
-    url: https://raw.githubusercontent.com/T0ne1d/Examples/main/ip.js
+    url: https://raw.githubusercontent.com/T0ne1d/Examples/main/tiles/ip.js
     interval: 86400
