@@ -1,0 +1,8 @@
+tiles:
+  - name: IPCheck
+    interval: 720
+
+script-providers:
+  IPCheck:
+    url: https://raw.githubusercontent.com/T0ne1d/Examples/main/ip.js
+    interval: 86400
