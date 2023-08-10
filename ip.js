@@ -9,8 +9,9 @@ $httpClient.get(url, function(error, response, data){
     let ip = jsonData.query
   body = {
     title: "Global IP",
-    content: `${ip} | IP \n${isp} | ISP\n${emoji}${country} - ${city}`,
-    icon: "globe.asia.australia.fill"
+    content: `${ip}\n${isp}\n${emoji}${country} - ${city}`,
+    icon: "globe.asia.australia.fill",
+    backgroundColor: '#663399'
   }
   $done(body);
 });
