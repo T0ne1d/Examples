@@ -1,3 +1,7 @@
+name: IP info
+desc: Show IP info
+
+
 tiles:
   - name: IPCheck
     interval: 720
